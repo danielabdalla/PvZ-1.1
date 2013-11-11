@@ -1,6 +1,12 @@
 public class Entity
 {
   protected Stats stats;
+  
+  /**
+   *This method is a setter. It sets the current stats of the game.
+   * @param - stats, inputted
+   * @return - stats are set to a global variable.
+  */
   public void setStats(Stats stats)
   {
     this.stats = stats;
